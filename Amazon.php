@@ -2,11 +2,11 @@
 
 	class Amazon
 	{
-		private $InfPrd, $UserAutentificat, $AccessKey, $SecretKey, $AwsRegion, $ServiceName, $AwsSignatureVersion, $Data, $Endpoint;
+		private $AccessKey, $SecretKey, $AwsRegion, $ServiceName, $AwsSignatureVersion, $Data, $Endpoint;
 		
 		private $CurlResponse, $CurlError, $CurlHeader, $CurlUrl, $Operation, $PathFile, $SignedHeaders, $CanonicalHeaders, $Scope;
 		
-		public function __construct($InfPrd, $UserAutentificat, $arg)
+		public function __construct($arg)
 		{
 			try
 			{
