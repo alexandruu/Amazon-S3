@@ -1,5 +1,5 @@
-# Amazon-S3
-Class for usual operations in Amazon S3 (upload, delete, download file) + generate presigned link
+# Amazon-S3 PHP
+PHP class for usual operations in Amazon S3 (upload, delete, download file) + generate presigned link
 
 Class can be instantiate like that:
 
