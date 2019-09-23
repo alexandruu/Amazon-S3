@@ -5,6 +5,7 @@ Class can be instantiate like that:
 
 try
 {
+
         $s3 = new Amazon();
         $s3->generatePresignedUrl('MyBucket','test.pdf'); // generate a link for direct access to specific file
         $s3->uploadFile('MyBucket','s3/test.jpg');
