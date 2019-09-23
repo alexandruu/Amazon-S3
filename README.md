@@ -1,4 +1,4 @@
-# Amazon-S3 PHP
+# Amazon-S3 PHP 5.3+
 PHP class for usual operations in Amazon S3 (upload, delete, download file) + generate presigned link
 
 Class can be instantiate like that:
